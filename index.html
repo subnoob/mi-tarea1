@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 2 Introduccion al css </title>
+
+    <h2><strong>Identifica y describe las propiedades de los siguientes elementos CSS: </strong> </h2>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h2 {
+            color: #3c3d3d;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #9ba2a3;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #747d7e;
+        }
+    </style>
+</head>
+<body>
+
+<h3>Tema 1 - Texto</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Propiedad</th>
+            <th>Valor Inicial</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>color</td><td>inherit</td><td>Define el color del texto.</td></tr>
+        <tr><td>font-family</td><td>inherit</td><td>Especifica la familia tipográfica.</td></tr>
+        <tr><td>font-size</td><td>medium</td><td>Establece el tamaño de la fuente.</td></tr>
+        <tr><td>font-weight</td><td>normal</td><td>Define el grosor de la fuente.</td></tr>
+        <tr><td>font-style</td><td>normal</td><td>Especifica el estilo de la fuente (normal, italic, oblique).</td></tr>
+        <tr><td>font-variant</td><td>normal</td><td>Controla el uso de variantes pequeñas de la fuente.</td></tr>
+        <tr><td>font</td><td>inherit</td><td>Es un atajo para definir varias propiedades de fuente.</td></tr>
+        <tr><td>text-align</td><td>inherit</td><td>Define la alineación del texto (left, right, center, justify).</td></tr>
+        <tr><td>line-height</td><td>normal</td><td>Especifica la altura de línea.</td></tr>
+        <tr><td>text-decoration</td><td>none</td><td>Define la decoración del texto (underline, overline, line-through).</td></tr>
+        <tr><td>text-transform</td><td>none</td><td>Controla la capitalización del texto (uppercase, lowercase, capitalize).</td></tr>
+        <tr><td>vertical-align</td><td>baseline</td><td>Define la alineación vertical del texto.</td></tr>
+        <tr><td>text-indent</td><td>0</td><td>Especifica la indentación del texto.</td></tr>
+        <tr><td>letter-spacing</td><td>normal</td><td>Controla el espaciado entre letras.</td></tr>
+        <tr><td>word-spacing</td><td>normal</td><td>Controla el espaciado entre palabras.</td></tr>
+        <tr><td>white-space</td><td>normal</td><td>Define cómo se manejan los espacios en blanco.</td></tr>
+    </tbody>
+</table>
+
+<h3>Tema 2 - Enlaces</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Característica</th>
+            <th>Propiedades</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Tamaño, Color y Decoración</td>
+            <td>color, font-size, text-decoration</td>
+            <td>Define el color, tamaño y decoración de los enlaces.</td>
+        </tr>
+        <tr>
+            <td>Decoración Personalizada</td>
+            <td>border, background, text-shadow</td>
+            <td>Permite aplicar estilos personalizados a los enlaces.</td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>Tema 3 - Imágenes</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Característica</th>
+            <th>Propiedades</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Anchura y Altura</td>
+            <td>width, height</td>
+            <td>Controla el tamaño de la imagen.</td>
+        </tr>
+        <tr>
+            <td>Eliminar el Borde</td>
+            <td>border</td>
+            <td>Establece el borde de la imagen a 0 para eliminarlo.</td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>Tema 4 - Listas</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Propiedad</th>
+            <th>Valor Inicial</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>list-style-type</td><td>disc</td><td>Especifica el tipo de marcador de la lista.</td></tr>
+        <tr><td>list-style-position</td><td>outside</td><td>Define la posición del marcador en relación al contenido.</td></tr>
+        <tr><td>list-style-image</td><td>none</td><td>Especifica una imagen como marcador de la lista.</td></tr>
+        <tr><td>list-style</td><td>none</td><td>Atajo para definir las tres propiedades anteriores.</td></tr>
+    </tbody>
+</table>
+
+<h3>Tema 5 - Tablas</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Propiedad</th>
+            <th>Se Aplica a</th>
+            <th>Valor Inicial</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>border-collapse</td><td>table</td><td>separate</td><td>Controla si los bordes de las celdas son colapsados o separados.</td></tr>
+        <tr><td>border-spacing</td><td>table</td><td>0</td><td>Define el espacio entre las celdas.</td></tr>
+        <tr><td>empty-cells</td><td>table</td><td>show</td><td>Controla la visualización de celdas vacías.</td></tr>
+        <tr><td>caption-side</td><td>table</td><td>top</td><td>Especifica la posición del título de la tabla.</td></tr>
+    </tbody>
+</table>
+
+</body>
+</html>
+
+
